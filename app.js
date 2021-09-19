@@ -59,10 +59,12 @@ function factorable_problem (max) {
 function print_answers(answers){
     var answerlist = ""
     for (var i = 0; i < answers.length; i++) {
+        if (typeof(answers[i])==0){  //in case there's only one solution
+            answerlist += `x is ${answers[i]}\n`
+        }
         answerlist += `${i+1}. x is ${answers[i][0]} or ${answers[i][1]}\n`
     }
     return answerlist
 }
 
 const switcher = document.querySelector('.btn');
-
