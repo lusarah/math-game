@@ -25,7 +25,7 @@ function format_problem (a,b,c) {
     } else if (c>0){
         problem += "+"+String(c)
     }
-    problem += "= 0"
+    problem += " = 0"
     return problem
 }
 var answers = []
