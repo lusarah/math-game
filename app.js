@@ -15,7 +15,7 @@ function format_problem (a,b,c) {
     } else if (b==-1){
         problem += "-x"
     }else if (b==1){
-        problem += "x "  
+        problem += "+x "  
     } else if (b>1){
         problem += "+"+String(b)+"x "
     }
