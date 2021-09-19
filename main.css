@@ -1,49 +1,26 @@
-
-:root {
-    --green: #00FF00;
-    --white: #ffffff;
-    --black: #000000;
-  }
-  * {
-    color: var(--fontColor);
-    font-family: helvetica;
-  }
 body {
-      background: var(--bg);
+      background: cyan;
+      font-family: Brush Script MT;
+      font-size: 25px;
 }
-
 ul {
-    font-family: helvetica;
+    font-family: Brush Script MT;
 }
 li {
     list-style: circle;
 }  
-#problem {
-    font-family: Georgia;
-    list-style: square;
-}
-.list {
-    list-style: square;
-}
-  
+
  
 .btn {
     position: absolute;
     top: 20px;
-    left: 250px;
-    height: 50px;
-    width: 50px;
+    left: 355px;
+    height: 75px;
+    width: 75px;
     border-radius: 50%;
     border: none;
-    color: var(--btnFontColor);
-    background-color: var(--btnBg);
-  }
-.btn:focus { outline-style: none; }
-.light-theme {
-    --bg: var(--green);
-    --fontColor: var(--black);
-  }
-  .dark-theme {
-    --bg: var(--black);
-    --fontColor: var(--green);
-  }
+    color: rgb(230, 25, 151);
+    background-color: yellow;
+    font-family: Brush Script MT;
+    font-size: 20px;
+}
