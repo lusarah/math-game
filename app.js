@@ -27,7 +27,7 @@ function format_problem (a,b,c) {
     }
     return problem
 }
-
+var answers = []
 function factorable_problem (max) {
     //(ix+h)(jx+k)= 0, solutions are h/i and k/j
     var h = Math.floor(Math.random() * 2 * max - max); 
@@ -51,6 +51,7 @@ function factorable_problem (max) {
     }
     var problem = format_problem(a,b,c)
     console.log(problem, solution)
+    answers.push(solution)
     return problem
 }
 const switcher = document.querySelector('.btn');
