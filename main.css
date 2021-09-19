@@ -1,5 +1,5 @@
 body {
-      background: cyan;
+      background: rgb(60, 112, 189);
       font-family: Brush Script MT;
       font-size: 25px;
 }
@@ -11,7 +11,7 @@ li {
     list-style: circle;
 }  
 
- 
+
 .btn {
     position: absolute;
     top: 20px;
@@ -21,7 +21,13 @@ li {
     border-radius: 50%;
     border: none;
     color: rgb(230, 25, 151);
-    background-color: yellow;
+    background-color: rgb(214, 228, 224);
     font-family: Brush Script MT;
     font-size: 20px;
+}
+
+.whl {
+    position: absolute;
+    top: 20px;
+    left: 355px;
 }
