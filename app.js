@@ -54,7 +54,3 @@ function factorable_problem (max) {
     return problem
 }
 const switcher = document.querySelector('.btn');
-switcher.addEventListener('click', function() {
-    console.log(factorable_problem(8));
-    //document.writeln(random_problem(10))
-});
